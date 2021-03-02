@@ -1,0 +1,83 @@
+{
+	"name": "@sprucelabs/esm-postbuild",
+	"version": "0.0.1",
+	"description": "Script to do thins after build of esm modules",
+	"main": "build/index.js",
+	"repository": "git@github.com:sprucelabsai/esm-postbuild.git",
+	"author": "Spruce Labs",
+	"license": "MIT",
+	"bin": {
+		"esm-postbuild": "./build/esm-postbuild.js"
+	},
+	"files": [
+		"build/index.js"
+	],
+	"scripts": {
+		"build": "npm run clean && npm run build.tsc",
+		"build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
+		"esm-postbuild": "esm-postbuild",
+		"build.tsc": "yarn build.copy-files && tsc",
+		"clean": "rm -rf build/",
+		"fix.lint": "eslint --fix '**/*.ts'",
+		"lint": "eslint '**/*.ts' && tsc -p . --noEmit",
+		"release": "semantic-release",
+		"test": "jest",
+		"upgrade.packages.all": "yarn install && yarn upgrade --latest && rm yarn.lock | true && yarn | true && yarn fix.lint | true",
+		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test",
+		"watch.build": "yarn build.tsc -w",
+		"watch.lint": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"globby": "^11.0.1",
+		"tsconfig-paths": "^3.9.0",
+		"yargs": "^16.0.3"
+	},
+	"devDependencies": {
+		"@sprucelabs/jest-json-reporter": "^5.1.14",
+		"@sprucelabs/jest-sheets-reporter": "^1.2.14",
+		"@sprucelabs/semantic-release": "^4.0.6",
+		"@sprucelabs/test": "^7.6.21",
+		"@sprucelabs/test-utils": "^3.0.39",
+		"@types/fs-extra": "^9.0.2",
+		"chokidar-cli": "^2.1.0",
+		"concurrently": "^6.0.0",
+		"eslint": "^7.11.0",
+		"eslint-config-spruce": "^10.9.91",
+		"fs-extra": "^9.1.0",
+		"jest": "^26.6.3",
+		"jest-circus": "^26.6.3",
+		"prettier": "^2.1.2",
+		"typescript": "^4.0.3"
+	},
+	"jest": {
+		"maxWorkers": 4,
+		"testTimeout": 120000,
+		"reporters": [
+			"default",
+			[
+				"@sprucelabs/jest-sheets-reporter",
+				{
+					"sheetId": "1DoWM7mYgGDa-PJXptLomrZmbIBZiuxS1YiAsRXU2Gm0",
+					"worksheetId": 843037832,
+					"testMap": {
+						"canRunfromCommandLine": "I31"
+					}
+				}
+			]
+		],
+		"testEnvironment": "node",
+		"testPathIgnorePatterns": [
+			"<rootDir>/tmp/",
+			"<rootDir>/src/",
+			"<rootDir>/node_modules/",
+			"<rootDir>/build/__tests__/testDirsAndFiles/"
+		],
+		"testMatch": [
+			"**/__tests__/**/*.test.js?(x)"
+		],
+		"moduleNameMapper": {
+			"^#spruce/(.*)$": "<rootDir>/build/.spruce/$1"
+		}
+	}
+}
