@@ -1,0 +1,11 @@
+# 1.0.0 (2021-03-02)
+
+
+### Bug Fixes
+
+* updated package.json main/files for new name ([8eb6a37](https://github.com/sprucelabsai/esm-postbuild/commit/8eb6a37))
+
+
+### Features
+
+* initial commit ([32d5bb5](https://github.com/sprucelabsai/esm-postbuild/commit/32d5bb5))
