@@ -13,13 +13,15 @@
 		"build/esm-postbuild.js"
 	],
 	"scripts": {
-		"build": "npm run clean && npm run build.tsc",
 		"build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
-		"esm-postbuild": "esm-postbuild",
+		"build.dev": "npm run clean && npm run build.tsc",
 		"build.tsc": "yarn build.copy-files && tsc",
 		"clean": "rm -rf build/",
+		"clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
+		"esm-postbuild": "esm-postbuild",
 		"fix.lint": "eslint --fix '**/*.ts'",
 		"lint": "eslint '**/*.ts' && tsc -p . --noEmit",
+		"rebuild": "yarn clean.all && yarn && yarn build.dev",
 		"release": "semantic-release",
 		"test": "jest",
 		"upgrade.packages.all": "yarn install && yarn upgrade --latest && rm yarn.lock | true && yarn | true && yarn fix.lint | true",
