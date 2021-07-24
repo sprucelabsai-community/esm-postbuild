@@ -94,7 +94,8 @@
 			"@sprucelabs/semantic-release",
 			"@sprucelabs/test",
 			"@sprucelabs/test-utils",
-			"eslint-config-spruce"
+			"eslint-config-spruce",
+			"globby"
 		]
 	}
 }
