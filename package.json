@@ -35,7 +35,7 @@
 		"watch.lint": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'"
 	},
 	"dependencies": {
-		"chalk": "^4.1.1",
+		"chalk": "^4.1.2",
 		"globby": "^11.0.4",
 		"yargs": "^17.0.1"
 	},
