@@ -15,7 +15,7 @@
 	"scripts": {
 		"build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
 		"build.ci": "npm run build.tsc",
-		"build.dev": "npm run clean && npm run build.tsc",
+		"build.dev": "npm run clean && npm run build.tsc --sourceMap",
 		"build.tsc": "yarn build.copy-files && tsc",
 		"clean": "yarn clean.build",
 		"clean.all": "yarn clean.dependencies && yarn clean.build",
@@ -31,7 +31,7 @@
 		"upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint | true",
 		"upgrade.packages.all": "yarn install && yarn upgrade.packages",
 		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test",
-		"watch.build": "yarn build.tsc -w",
+		"watch.build": "yarn build.tsc -w --sourceMap",
 		"watch.lint": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'"
 	},
 	"dependencies": {
