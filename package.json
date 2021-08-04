@@ -37,7 +37,7 @@
 	"dependencies": {
 		"chalk": "^4.1.2",
 		"globby": "^11.0.4",
-		"yargs": "^17.0.1"
+		"yargs": "^17.1.0"
 	},
 	"devDependencies": {
 		"@sprucelabs/jest-json-reporter": "latest",
