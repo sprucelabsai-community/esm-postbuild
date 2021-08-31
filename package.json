@@ -47,7 +47,6 @@
 		"@sprucelabs/test-utils": "latest",
 		"@types/fs-extra": "^9.0.12",
 		"chokidar-cli": "^3.0.0",
-		"concurrently": "^6.2.1",
 		"eslint": "^7.32.0",
 		"eslint-config-spruce": "latest",
 		"fs-extra": "^10.0.0",
