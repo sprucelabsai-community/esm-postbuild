@@ -13,6 +13,7 @@
 		"build/esm-postbuild.js"
 	],
 	"scripts": {
+		"preinstall": "git config core.hooksPath .githooks", 
 		"build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
 		"build.ci": "npm run build.tsc",
 		"build.dev": "npm run clean && npm run build.tsc --sourceMap",
@@ -31,8 +32,7 @@
 		"upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint | true",
 		"upgrade.packages.all": "yarn install && yarn upgrade.packages",
 		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test",
-		"watch.build": "yarn build.tsc -w --sourceMap",
-		"watch.lint": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'"
+		"watch.build": "yarn build.tsc -w --sourceMap"
 	},
 	"dependencies": {
 		"chalk": "^4.1.2",
