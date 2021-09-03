@@ -1,6 +1,6 @@
 {
 	"name": "@sprucelabs/esm-postbuild",
-	"version": "1.0.34",
+	"version": "1.0.35",
 	"description": "Script to do thins after build of esm modules",
 	"main": "build/esm-postbuild.js",
 	"repository": "git@github.com:sprucelabsai/esm-postbuild.git",
@@ -13,7 +13,7 @@
 		"build/esm-postbuild.js"
 	],
 	"scripts": {
-		"preinstall": "git config core.hooksPath .githooks", 
+		"preinstall": "git config core.hooksPath .githooks",
 		"build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
 		"build.ci": "npm run build.tsc",
 		"build.dev": "npm run clean && npm run build.tsc --sourceMap",
