@@ -1,5 +1,12 @@
 {
   "installed": [
     "test"
-  ]
+  ],
+  "scriptUpdater": {
+    "skipped": [
+      "build.ci",
+      "build.dev",
+      "build.resolve-paths"
+    ]
+  }
 }
