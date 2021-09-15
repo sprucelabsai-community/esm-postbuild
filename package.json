@@ -52,9 +52,9 @@
     "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@sprucelabs/jest-json-reporter": "^6.0.36",
-    "@sprucelabs/jest-sheets-reporter": "^1.2.69",
-    "@sprucelabs/resolve-path-aliases": "^1.0.75",
+    "@sprucelabs/jest-json-reporter": "^6.0.37",
+    "@sprucelabs/jest-sheets-reporter": "^1.2.70",
+    "@sprucelabs/resolve-path-aliases": "^1.0.76",
     "@sprucelabs/semantic-release": "^4.0.6",
     "@sprucelabs/spruce-test-fixtures": "^5.4.52",
     "@sprucelabs/test": "^7.7.60",
