@@ -52,12 +52,12 @@
     "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@sprucelabs/jest-json-reporter": "^6.0.52",
-    "@sprucelabs/jest-sheets-reporter": "^1.2.82",
-    "@sprucelabs/resolve-path-aliases": "^1.0.83",
+    "@sprucelabs/jest-json-reporter": "^6.0.53",
+    "@sprucelabs/jest-sheets-reporter": "^1.2.83",
+    "@sprucelabs/resolve-path-aliases": "^1.0.84",
     "@sprucelabs/semantic-release": "^4.0.7",
-    "@sprucelabs/spruce-test-fixtures": "^5.4.77",
-    "@sprucelabs/test": "^7.7.65",
+    "@sprucelabs/spruce-test-fixtures": "^5.4.80",
+    "@sprucelabs/test": "^7.7.66",
     "@sprucelabs/test-utils": "^3.0.56",
     "@types/fs-extra": "^9.0.13",
     "@types/node": "^16.9.6",
