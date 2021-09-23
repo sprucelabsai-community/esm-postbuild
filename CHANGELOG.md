@@ -1,3 +1,5 @@
+## [1.0.93](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.92...v1.0.93) (2021-09-23)
+
 ## [1.0.92](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.91...v1.0.92) (2021-09-23)
 
 ## [1.0.91](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.90...v1.0.91) (2021-09-23)
