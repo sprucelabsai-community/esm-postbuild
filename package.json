@@ -54,11 +54,11 @@
     "yargs": "^17.2.1"
   },
   "devDependencies": {
-    "@sprucelabs/jest-json-reporter": "^6.0.109",
+    "@sprucelabs/jest-json-reporter": "^6.0.110",
     "@sprucelabs/jest-sheets-reporter": "^1.2.131",
     "@sprucelabs/semantic-release": "^4.0.7",
-    "@sprucelabs/test": "^7.7.111",
-    "@sprucelabs/test-utils": "^3.0.95",
+    "@sprucelabs/test": "^7.7.112",
+    "@sprucelabs/test-utils": "^3.0.96",
     "@types/fs-extra": "^9.0.13",
     "@types/node": "^16.10.2",
     "chokidar-cli": "^3.0.0",
