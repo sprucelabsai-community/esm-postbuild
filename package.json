@@ -55,10 +55,10 @@
   },
   "devDependencies": {
     "@sprucelabs/jest-json-reporter": "^6.0.176",
-    "@sprucelabs/jest-sheets-reporter": "^1.2.186",
+    "@sprucelabs/jest-sheets-reporter": "^1.2.187",
     "@sprucelabs/semantic-release": "^4.0.7",
-    "@sprucelabs/test": "^7.7.177",
-    "@sprucelabs/test-utils": "^3.0.162",
+    "@sprucelabs/test": "^7.7.178",
+    "@sprucelabs/test-utils": "^3.0.163",
     "@types/fs-extra": "^9.0.13",
     "@types/node": "^16.10.2",
     "chokidar-cli": "^3.0.0",
