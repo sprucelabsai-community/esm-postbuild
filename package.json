@@ -9,6 +9,7 @@
   "skill": {
     "namespace": "esm-postbuild",
     "upgradeIgnoreList": [
+      "chalk",
       "globby",
       "@sprucelabs/resolve-path-aliases",
       "@sprucelabs/spruce-test-fixtures"
