@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
-    "build.ci": "npm run build.tsc",
+    "build.ci": "npm run build.tsc && yarn lint",
     "build.dev": "npm run clean && npm run build.tsc --sourceMap",
     "build.resolve-paths": "true",
     "build.tsc": "yarn build.copy-files && tsc",
