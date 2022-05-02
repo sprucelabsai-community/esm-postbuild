@@ -1,3 +1,5 @@
+## [1.0.459](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.458...v1.0.459) (2022-05-02)
+
 ## [1.0.458](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.457...v1.0.458) (2022-05-02)
 
 ## [1.0.457](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.456...v1.0.457) (2022-05-01)
