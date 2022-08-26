@@ -13,7 +13,8 @@
       "globby",
       "@sprucelabs/resolve-path-aliases",
       "@sprucelabs/spruce-test-fixtures",
-      "@sprucelabs/test-utils"
+      "@sprucelabs/test-utils",
+      "typescript"
     ]
   },
   "bin": {
@@ -74,7 +75,7 @@
     "ts-node": "^10.9.1",
     "tsc-watch": "^5.0.3",
     "tsconfig-paths": "^4.1.0",
-    "typescript": "^4.7.4"
+    "typescript": "4.7.4"
   },
   "jest": {
     "maxWorkers": 4,
