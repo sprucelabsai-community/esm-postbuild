@@ -13,8 +13,7 @@
       "globby",
       "@sprucelabs/resolve-path-aliases",
       "@sprucelabs/spruce-test-fixtures",
-      "@sprucelabs/test-utils",
-      "typescript"
+      "@sprucelabs/test-utils"
     ]
   },
   "bin": {
