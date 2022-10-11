@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.610...v2.0.0) (2022-10-11)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([d75ccd9](https://github.com/sprucelabsai/esm-postbuild/commit/d75ccd9))
+
 ## [1.0.610](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.609...v1.0.610) (2022-10-10)
 
 ## [1.0.609](https://github.com/sprucelabsai/esm-postbuild/compare/v1.0.608...v1.0.609) (2022-10-08)
