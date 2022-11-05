@@ -11,7 +11,8 @@
   },
   "writer": {
     "skipped": [
-      ".eslintignore"
+      ".eslintignore",
+      ".nvmrc"
     ]
   }
 }
