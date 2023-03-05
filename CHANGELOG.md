@@ -1,3 +1,10 @@
+# [3.0.0](https://github.com/sprucelabsai/esm-postbuild/compare/v2.0.98...v3.0.0) (2023-03-05)
+
+
+### Breaking Changes
+
+* upgrade ([4ed3170](https://github.com/sprucelabsai/esm-postbuild/commit/4ed3170))
+
 ## [2.0.98](https://github.com/sprucelabsai/esm-postbuild/compare/v2.0.97...v2.0.98) (2023-03-03)
 
 ## [2.0.97](https://github.com/sprucelabsai/esm-postbuild/compare/v2.0.96...v2.0.97) (2023-03-03)
