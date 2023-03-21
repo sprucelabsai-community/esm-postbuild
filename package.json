@@ -3,7 +3,7 @@
   "version": "3.0.14",
   "description": "Script to do thins after build of esm modules",
   "main": "build/esm-postbuild.js",
-  "repository": "git@github.com:sprucelabsai/esm-postbuild.git",
+  "repository": "git@github.com:sprucelabsai-community/esm-postbuild.git",
   "author": "Spruce Labs",
   "license": "MIT",
   "skill": {
