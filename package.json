@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@sprucelabs/jest-json-reporter": "^7.0.28",
-    "@sprucelabs/jest-sheets-reporter": "^3.0.6",
+    "@sprucelabs/jest-sheets-reporter": "^3.0.7",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^7.7.441",
     "@types/fs-extra": "^11.0.1",
