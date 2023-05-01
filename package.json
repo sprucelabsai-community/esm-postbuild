@@ -56,12 +56,12 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "@sprucelabs/jest-json-reporter": "^7.0.34",
-    "@sprucelabs/jest-sheets-reporter": "^3.0.12",
+    "@sprucelabs/jest-json-reporter": "^7.0.35",
+    "@sprucelabs/jest-sheets-reporter": "^3.0.13",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^7.7.445",
+    "@sprucelabs/test": "^7.7.446",
     "@types/fs-extra": "^11.0.1",
-    "@types/node": "^18.16.2",
+    "@types/node": "^18.16.3",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.0.1",
     "eslint": "^8.39.0",
@@ -71,7 +71,7 @@
     "jest-circus": "^29.5.0",
     "prettier": "^2.8.8",
     "ts-node": "^10.9.1",
-    "tsc-watch": "^6.0.1",
+    "tsc-watch": "^6.0.4",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.4"
   },
