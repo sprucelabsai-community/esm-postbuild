@@ -1,3 +1,10 @@
+# [5.0.0](https://github.com/sprucelabsai-community/esm-postbuild/compare/v4.0.21...v5.0.0) (2023-05-04)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([33066b5](https://github.com/sprucelabsai-community/esm-postbuild/commit/33066b5))
+
 ## [4.0.21](https://github.com/sprucelabsai-community/esm-postbuild/compare/v4.0.20...v4.0.21) (2023-05-01)
 
 ## [4.0.20](https://github.com/sprucelabsai-community/esm-postbuild/compare/v4.0.19...v4.0.20) (2023-04-28)
