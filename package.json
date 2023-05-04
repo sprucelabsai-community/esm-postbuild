@@ -51,7 +51,7 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/globby": "^0.0.7",
+    "@sprucelabs/globby": "^1.0.0",
     "chalk": "^4.1.2",
     "yargs": "^17.7.2"
   },
