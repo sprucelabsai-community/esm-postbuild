@@ -56,10 +56,10 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
-    "@sprucelabs/jest-json-reporter": "^7.0.91",
+    "@sprucelabs/jest-json-reporter": "^7.0.92",
     "@sprucelabs/jest-sheets-reporter": "^3.0.26",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^8.0.14",
+    "@sprucelabs/test": "^8.0.15",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.6.0",
     "chokidar-cli": "^3.0.0",
@@ -67,8 +67,8 @@
     "eslint": "^8.49.0",
     "eslint-config-spruce": "^10.13.6",
     "fs-extra": "^11.1.1",
-    "jest": "^29.6.4",
-    "jest-circus": "^29.6.4",
+    "jest": "^29.7.0",
+    "jest-circus": "^29.7.0",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.4",
