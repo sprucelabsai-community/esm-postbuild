@@ -60,7 +60,7 @@
     "@sprucelabs/jest-sheets-reporter": "^3.0.26",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^8.0.21",
-    "@types/fs-extra": "^11.0.2",
+    "@types/fs-extra": "^11.0.3",
     "@types/node": "^20.8.7",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.1",
