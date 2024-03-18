@@ -1,6 +1,6 @@
 {
   "name": "@sprucelabs/esm-postbuild",
-  "version": "5.0.171",
+  "version": "5.0.172",
   "description": "Script to do thins after build of esm modules",
   "main": "build/esm-postbuild.js",
   "repository": "git@github.com:sprucelabsai-community/esm-postbuild.git",
