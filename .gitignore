@@ -22,3 +22,5 @@ tmp/
 .env-*
 .eslintcache
 .DS_Store
+
+**/.spruce/*cache.json

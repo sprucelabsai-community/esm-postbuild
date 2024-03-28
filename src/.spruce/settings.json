@@ -12,7 +12,8 @@
   "writer": {
     "skipped": [
       ".eslintignore",
-      ".nvmrc"
+      ".nvmrc",
+      ".gitignore"
     ]
   }
 }
