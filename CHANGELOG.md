@@ -1,3 +1,11 @@
+# [6.0.0](https://github.com/sprucelabsai-community/esm-postbuild/compare/v5.0.200...v6.0.0) (2024-04-14)
+
+
+### Breaking Changes
+
+* eslint 9 upgrade ([130779b](https://github.com/sprucelabsai-community/esm-postbuild/commit/130779b))
+* upgrade and migration to eslint 9 ([19d5f01](https://github.com/sprucelabsai-community/esm-postbuild/commit/19d5f01))
+
 ## [5.0.200](https://github.com/sprucelabsai-community/esm-postbuild/compare/v5.0.199...v5.0.200) (2024-04-04)
 
 ## [5.0.199](https://github.com/sprucelabsai-community/esm-postbuild/compare/v5.0.198...v5.0.199) (2024-04-04)
