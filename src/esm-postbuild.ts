@@ -12,7 +12,7 @@ if (require.main === module) {
             desc: "Where I'll look to begin mapping paths. Defaults to cwd.",
         },
         patterns: {
-            desc: "Comma separated list of globby patterns, default to **/*.js",
+            desc: 'Comma separated list of globby patterns, default to **/*.js',
         },
     }).argv
 
