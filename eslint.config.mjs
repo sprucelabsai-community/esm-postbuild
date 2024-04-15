@@ -1,9 +1,3 @@
-import { buildEsLintConfig } from 'eslint-config-spruce'
+import eslintConfigSpruce from 'eslint-config-spruce'
 
-export default buildEsLintConfig({
-	ignores: [
-		'build/**',
-		'node_modules/**',
-		'src/__tests__/testDirsAndFiles/**',
-	]
-})
+export default eslintConfigSpruce
