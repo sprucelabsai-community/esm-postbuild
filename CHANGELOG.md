@@ -1,3 +1,5 @@
+## [6.0.535](https://github.com/sprucelabsai-community/esm-postbuild/compare/v6.0.534...v6.0.535) (2025-01-06)
+
 ## [6.0.534](https://github.com/sprucelabsai-community/esm-postbuild/compare/v6.0.533...v6.0.534) (2025-01-01)
 
 ## [6.0.533](https://github.com/sprucelabsai-community/esm-postbuild/compare/v6.0.532...v6.0.533) (2024-12-17)
