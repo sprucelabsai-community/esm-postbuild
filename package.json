@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@sprucelabs/semantic-release": "^5.0.2",
-    "@sprucelabs/test": "^9.0.73",
+    "@sprucelabs/test": "^9.0.74",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.13.5",
     "chokidar-cli": "^3.0.0",
@@ -67,7 +67,7 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.1",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "jest": {
     "maxWorkers": 4,
