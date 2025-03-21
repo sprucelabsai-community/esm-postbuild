@@ -56,7 +56,7 @@
     "@sprucelabs/semantic-release": "^5.0.2",
     "@sprucelabs/test": "^9.0.76",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^22.13.10",
+    "@types/node": "^22.13.11",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.22.0",
     "eslint-config-spruce": "^11.2.26",
