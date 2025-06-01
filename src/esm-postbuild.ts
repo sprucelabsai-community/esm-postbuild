@@ -2,19 +2,10 @@
 
 import fs from 'fs'
 import pathUtil from 'path'
-import chalk from 'chalk'
-import globby from 'globby'
-import yargs from 'yargs'
+import globby from '@sprucelabs/globby'
 
 if (require.main === module) {
-    const argv = yargs.options({
-        target: {
-            desc: "Where I'll look to begin mapping paths. Defaults to cwd.",
-        },
-        patterns: {
-            desc: 'Comma separated list of globby patterns, default to **/*.js',
-        },
-    }).argv
+    const argv = parseArgs()
 
     const { patterns, target } = argv as {
         patterns?: string
@@ -25,9 +16,37 @@ if (require.main === module) {
 
     const pattern = patterns ? patterns.split(',') : ['**/*.js']
 
-    console.log(chalk.green(`Updating ${targetDir}`))
+    console.log(`Updating ${targetDir}`)
     const results = processesByGlob(targetDir, pattern)
-    console.log(chalk.green.bold(`Done! Processed ${results} files.`))
+    console.log(`Done! Processed ${results} files.`)
+}
+
+function parseArgs() {
+    const args: Record<string, string | boolean> = {}
+    const descriptions: Record<string, string> = {
+        target: "Where I'll look to begin mapping paths. Defaults to build/esm.",
+        patterns: 'Comma separated list of globby patterns, default to **/*.js',
+        help: 'Show this help message',
+    }
+
+    for (let i = 2; i < process.argv.length; i++) {
+        const arg = process.argv[i]
+        if (arg.startsWith('--')) {
+            const [key, value] = arg.slice(2).split('=')
+            args[key] = value === undefined ? true : value
+        }
+    }
+
+    if (args.help) {
+        console.log('Usage: esm-postbuild [--target=dir] [--patterns=globs]')
+        console.log('\nOptions:')
+        Object.entries(descriptions).forEach(([key, desc]) => {
+            console.log(`  --${key.padEnd(10)} ${desc}`)
+        })
+        process.exit(0)
+    }
+
+    return args
 }
 
 function isDir(path: string) {
