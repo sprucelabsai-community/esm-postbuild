@@ -30,15 +30,31 @@ function parseArgs() {
     }
 
     for (let i = 2; i < process.argv.length; i++) {
-        const arg = process.argv[i]
+        let arg = process.argv[i]
         if (arg.startsWith('--')) {
-            const [key, value] = arg.slice(2).split('=')
-            args[key] = value === undefined ? true : value
+            let key: string
+            let value: string | boolean | undefined
+            if (arg.includes('=')) {
+                ;[key, value] = arg.slice(2).split('=')
+            } else {
+                key = arg.slice(2)
+                // Only set value if next arg exists and doesn't start with --
+                if (
+                    process.argv[i + 1] &&
+                    !process.argv[i + 1].startsWith('--')
+                ) {
+                    value = process.argv[i + 1]
+                    i++ // skip next arg
+                } else {
+                    value = true
+                }
+            }
+            args[key] = value
         }
     }
 
     if (args.help) {
-        console.log('Usage: esm-postbuild [--target=dir] [--patterns=globs]')
+        console.log('Usage: esm-postbuild [--target dir] [--patterns globs]')
         console.log('\nOptions:')
         Object.entries(descriptions).forEach(([key, desc]) => {
             console.log(`  --${key.padEnd(10)} ${desc}`)
