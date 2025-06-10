@@ -1,3 +1,10 @@
+# [7.0.0](https://github.com/sprucelabsai-community/esm-postbuild/compare/v6.0.568...v7.0.0) (2025-06-10)
+
+
+### Breaking Changes
+
+* jest upgrade ([8af5891](https://github.com/sprucelabsai-community/esm-postbuild/commit/8af5891))
+
 ## [6.0.568](https://github.com/sprucelabsai-community/esm-postbuild/compare/v6.0.567...v6.0.568) (2025-06-05)
 
 ## [6.0.567](https://github.com/sprucelabsai-community/esm-postbuild/compare/v6.0.566...v6.0.567) (2025-06-01)
