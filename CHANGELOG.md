@@ -1,3 +1,8 @@
+## <small>7.0.52 (2025-11-08)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([ffd5e27](https://github.com/sprucelabsai-community/esm-postbuild/commit/ffd5e27))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([3b17579](https://github.com/sprucelabsai-community/esm-postbuild/commit/3b17579))
+
 ## [7.0.51](https://github.com/sprucelabsai-community/esm-postbuild/compare/v7.0.50...v7.0.51) (2025-11-08)
 
 ## [7.0.50](https://github.com/sprucelabsai-community/esm-postbuild/compare/v7.0.49...v7.0.50) (2025-10-28)
