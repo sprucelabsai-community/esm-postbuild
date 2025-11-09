@@ -1,3 +1,7 @@
+## 8.0.0 (2025-11-09)
+
+* major: upgrade ([fb75f15](https://github.com/sprucelabsai-community/esm-postbuild/commit/fb75f15))
+
 ## <small>7.0.52 (2025-11-08)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([ffd5e27](https://github.com/sprucelabsai-community/esm-postbuild/commit/ffd5e27))
