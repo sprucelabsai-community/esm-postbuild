@@ -47,10 +47,10 @@
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/globby": "^2.0.507"
+    "@sprucelabs/globby": "^2.0.508"
   },
   "devDependencies": {
-    "@sprucelabs/semantic-release": "^5.0.3",
+    "@sprucelabs/semantic-release": "^6.0.0",
     "@sprucelabs/test": "^10.0.28",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.10.0",
