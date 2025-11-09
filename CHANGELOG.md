@@ -1,3 +1,7 @@
+## 9.0.0 (2025-11-09)
+
+* major: upgrade ([4250aec](https://github.com/sprucelabsai-community/esm-postbuild/commit/4250aec))
+
 ## 8.0.0 (2025-11-09)
 
 * major: upgrade ([fb75f15](https://github.com/sprucelabsai-community/esm-postbuild/commit/fb75f15))
