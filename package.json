@@ -47,13 +47,13 @@
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/globby": "^2.0.509"
+    "@sprucelabs/globby": "^2.0.510"
   },
   "devDependencies": {
     "@sprucelabs/semantic-release": "^6.0.0",
     "@sprucelabs/test": "^11.0.0",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^24.10.0",
+    "@types/node": "^24.10.1",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.39.1",
     "eslint-config-spruce": "^11.2.26",
