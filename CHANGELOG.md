@@ -1,3 +1,8 @@
+## <small>9.0.4 (2025-11-14)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([54f79d5](https://github.com/sprucelabsai-community/esm-postbuild/commit/54f79d5))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([cb4900c](https://github.com/sprucelabsai-community/esm-postbuild/commit/cb4900c))
+
 ## <small>9.0.3 (2025-11-14)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([160f921](https://github.com/sprucelabsai-community/esm-postbuild/commit/160f921))
