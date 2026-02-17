@@ -69,7 +69,7 @@ function isDir(path: string) {
     try {
         const stat = fs.lstatSync(path)
         return stat.isDirectory()
-    } catch (e) {
+    } catch {
         return false
     }
 }
