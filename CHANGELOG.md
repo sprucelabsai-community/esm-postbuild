@@ -1,3 +1,8 @@
+## <small>9.0.17 (2026-02-18)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([96ad599](https://github.com/sprucelabsai-community/esm-postbuild/commit/96ad599))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([35e39fc](https://github.com/sprucelabsai-community/esm-postbuild/commit/35e39fc))
+
 ## <small>9.0.16 (2026-02-17)</small>
 
 * patch: upgrade dependencies and fix lint errors ([54c5264](https://github.com/sprucelabsai-community/esm-postbuild/commit/54c5264))
