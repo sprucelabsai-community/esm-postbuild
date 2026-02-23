@@ -1,3 +1,8 @@
+## <small>9.0.19 (2026-02-23)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([a3dfa0a](https://github.com/sprucelabsai-community/esm-postbuild/commit/a3dfa0a))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([e93118f](https://github.com/sprucelabsai-community/esm-postbuild/commit/e93118f))
+
 ## <small>9.0.18 (2026-02-20)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([258edcd](https://github.com/sprucelabsai-community/esm-postbuild/commit/258edcd))
