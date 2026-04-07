@@ -1,3 +1,7 @@
+## <small>9.0.26 (2026-04-07)</small>
+
+* Upgrade dependencies and fix TypeScript 6.0 tsconfig deprecations ([ec26883](https://github.com/sprucelabsai-community/esm-postbuild/commit/ec26883))
+
 ## <small>9.0.25 (2026-03-13)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([f8a53c9](https://github.com/sprucelabsai-community/esm-postbuild/commit/f8a53c9))
